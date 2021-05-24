@@ -1,0 +1,36 @@
+body {
+    font-family: 'Pattaya', sans-serif;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    }
+
+.logo {
+    font-size: 200px;
+}
+
+.list {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.list-item {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.subtitle {
+    display: flex;
+    align-self: flex-end;
+
+}
